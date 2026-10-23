@@ -44,7 +44,7 @@ export async function GET(
 
         insightsUrl.searchParams.set(
             "metric",
-            "reach,likes,comments,saved,shares,total_interactions"
+            "views,likes,comments,saved,shares,total_interactions"
         );
         insightsUrl.searchParams.set("access_token", accessToken);
 

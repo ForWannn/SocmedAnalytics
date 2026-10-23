@@ -803,7 +803,7 @@ export default function KontenPage() {
                                         <div className="mt-4 grid grid-cols-2 gap-3">
                                             {selectedInsights.map((insight) => {
                                                 const metricLabels: Record<string, string> = {
-                                                    reach: "Reach",
+                                                    views: "Views",
                                                     likes: "Likes",
                                                     comments: "Komentar",
                                                     saved: "Disimpan",
